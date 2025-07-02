@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8" />
+   <title>Калькулятор витрат</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+   <div class="container">
+      <h1>💸 Калькулятор витрат</h1>
+
+      <form id="expense-form">
+         <input type="text" id="title" placeholder="Назва витрати" required />
+         <input type="number" id="amount" placeholder="Сума (грн)" required />
+         <button type="submit">Додати</button>
+      </form>
+
+      <h2>Список:</h2>
+      <ul id="expense-list"></ul>
+
+      <h3>Сума: <span id="total">0</span> грн</h3>
+   </div>
+
+   <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
