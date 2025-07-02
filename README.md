@@ -18,13 +18,14 @@ Individual expenses can also be deleted.
 
 ## 📁 Project Structure
 
+```
 expense-tracker/
-├── index.html # Basic HTML layout
-├── styles.scss # SCSS styles (compiled to styles.css)
-├── main.ts # Main TypeScript logic
-├── tsconfig.json # TypeScript configuration
-├── vite.config.ts # Vite configuration
-├── package.json # Project metadata and scripts
-
+├── index.html          # Basic HTML layout
+├── styles.scss         # SCSS styles (compiled to styles.css)
+├── main.ts             # Main TypeScript logic
+├── tsconfig.json       # TypeScript configuration
+├── vite.config.ts      # Vite configuration
+├── package.json        # Project metadata and scripts
+```
 
 
